@@ -1,1 +1,153 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Long+Cang&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+    font-family: 'Long Cang', cursive;
+}
+
+.page-container {
+    background: grey;
+    padding: 1%;
+}
+
+a {
+   text-decoration: none;
+}
+
+.name-title a {
+    font-size: 5rem;
+    display: inline-block;
+    margin-left: 4%;
+    padding:1rem 2rem;
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    background: plum;
+    padding:1rem 2rem;
+    border-radius: 1.2rem;
+    color: whitesmoke;
+}
+
+nav a {
+    margin-left: -1.1rem;
+}
+
+nav a:first-child {
+    margin-left: 4%;
+}
+
+.main-content {
+    display: flex;
+    width: 95%;
+    margin: 4% auto;
+    justify-content: space-between;
+}
+
+.main-img {
+    width: 30%;
+}
+
+.main-img img {
+    border-radius: 2rem;
+}
+
+.img-item img {
+    border-radius: 2rem;
+}
+
+.main-text {
+    width: 60%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 1rem;
+    width: 20%;
+    background: plum;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 2rem 0;
+
+}
+
+.img-grid {
+    width: 95%;
+    margin: 4% auto;
+}
+
+.img-grid-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.img-item {
+    width: 20%;
+}
+
+.img-item h3 {
+    text-align: left;
+}
+
+footer {
+    height: 30vh;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer h2 {
+    text-align: center;
+}
+
+.footer-text a {
+    display: inline-block;
+    color: whitesmoke;
+    background: plum;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    color: whitesmoke;
+    background: plum;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    margin-left: 3rem;
+}
+
+
+
+
